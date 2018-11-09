@@ -1,0 +1,37 @@
+{
+    "name": "Hello World",
+    "description": "Atlassian Connect app",
+    "key": "com.example.myapp",
+    "baseUrl": "https://6421d8e0.ngrok.io",
+    "vendor": {
+        "name": "Example, Inc.",
+        "url": "http://example.com"
+    },
+    "authentication": {
+        "type": "none"
+    },
+    "apiVersion": 1,
+    "modules": {
+        "generalPages": [
+            {
+                "url": "/helloworld.html",
+                "key": "hello-world",
+                "location": "system.top.navigation.bar",
+                "name": {
+                    "value": "Greeting"
+                }
+            }
+        ],
+        "webPanels": [
+            {
+              "key": "my-configuration-page",
+              "url": "configuration?id={board.id}&type={board.type}",
+              "name": {
+                "value": "My Configuration Page"
+              },
+              "location": "jira.agile.board.configuration",
+              "weight": 1
+            }
+          ]
+    }
+   }

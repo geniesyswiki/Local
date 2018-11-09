@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+<title>My favorite Recipes</title>
+</head>
+    <body>
+      <h1>My Favorite Recipes</h1>
+
+      <ul><li> Recipe 1 </li></ul>
+      <h2> Recipe 1</h2>
+      This is going to be my favourite recipe. <br>
+      <h3>List of Ingredients:</h3>
+      <ul>
+        <li> Ingredient 1 <br> 
+        <li> Ingredient 2
+        <li> Ingredient 3 </ul>
+      
+      <h3>Steps:</h3>
+      <ol>
+        <li>Step 1
+          <li>Step 2
+            <li>Step 3
+              <li>Enjoy!
+      </ol>
+           
+        
+    </body>
+</html>
